@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        
+        <style>
+            
+      html, body {
+        height: auto;
+        padding: 0;
+        background-color: blue; /* Zachte blauwe achtergrond */
+      }
+      /* ---------- BASISOPMAAK ---------- */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: lightblue;
+        color: #333;
+        max-width: 600px; /* Pagina 600 pixels breed */
+        margin: 40px auto; /* Centreer op scherm */
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        background: white;
+        text-align: justify
+      }
+            
+           
+
+      /* ---------- TITEL ---------- */
+      .title {
+        text-align: center;
+        color: #ff9800;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      /* ---------- TEKST ---------- */
+      p {
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+
+      .text-lg {
+        font-size: 1.1em;
+      }
+
+      .text-gray-600 {
+        color: #666;
+      }
+
+      .max-w-lg {
+        max-width: 600px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      /* ---------- LIJST ---------- */
+      ul {
+        list-style-type: "🌻☀️ ";
+        padding-left: auto;
+        margin-bottom: 20px;
+      }
+
+      /* ---------- AFBEELDING ---------- */
+      img {
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      /* ---------- KNOP ---------- */
+      button {
+        display: table-row ;
+        justify-content: center;
+        margin:  30px auto;
+        padding: 12px 24px;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+    #activiteiten {
+      float: left
+    }
+    #home {
+      float: right
+    }
+
+      button:hover {
+        background-color: #e68a00;
+      }
+    </style>
+        
+    </head>
+    <body>
+    
+        <h1>Oktober</h1>
+        
+        <p>
+             Oktober, de maand waarin veel gebeurd is, waar je veel mensen leerden kennen en
+            waar we vooral elkaar leerden kennen!
+            <br>
+        </p>
+            
+        <p>
+            In oktober leerde je m'n ouders kennen, tijdens een etentje voor m'n verjaardag.
+            <br>
+           <img src="images/okt1.JPEG" alt="okt-1" width="300">
+            <br>
+          
+            In oktober gingen we samen de Last Post bekijken in Ieper, samen met een warme chocolademelk
+            <br>
+          
+          <img src="images/okt2.JPEG" alt="okt-2" width="300">
+            <br>
+          
+          Je leerde m'n grootste knuffel kennen.
+          <br>
+          
+        <img src="images/okt3.JPEG" alt="okt-3" width="300">
+            <br>  
+          
+          We speelden veel gezelschapspelletjes en hadden veel gezellige avonden. Uit dit filmpje blijkt dat ik niet alle speleltjes 
+          kan winnen van DE Uma Van Der Beken!
+          
+          <video src="video/okt11.MP4" alt="okt11" width="300" controls></video>
+            
+        </p>
+        
+        
+        
+       
+        
+      
+      
+        
+        <button id="tussenpagina">Ga naar de tussenpagina!</button>
+        <button id="november">Ga naar november!</button>
+  
+        <script>
+            document.getElementById("tussenpagina").addEventListener("click", function() {
+            window.location.href = "12.html";
+            });
+                document.getElementById("november").addEventListener("click", function() {
+                        window.location.href = "14.html";
+            });
+        </script>
+    
+    </body>
+</html>
+
